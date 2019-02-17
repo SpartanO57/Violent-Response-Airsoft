@@ -35,4 +35,26 @@ li a:hover {
   background-color: grey;
   margin-left: 33%;
   margin-right: 33%;
+  padding-bottom: 2px;
+}
+
+#icemansArea {
+  text-align: center;
+  background-color: teal;
+  margin-left: 5%;
+  margin-right: 70%;
+  padding: 2px;
+}
+
+#fatHazardsArea {
+  background-color: orange;
+  margin-left: 5%;
+  margin-right: 70%;
+  padding: 2px;
+  text-align: center;
+}
+
+#IcemansM4 {
+    max-width: 300px;
+    text-align: center;
 }
