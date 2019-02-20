@@ -30,6 +30,10 @@ li a:hover {
   background-color: red;
 }
 
+img {
+  max-width: 300px;
+}
+
 #header {
   text-align: center;
   background-color: grey;
@@ -57,4 +61,12 @@ li a:hover {
 #IcemansM4 {
     max-width: 300px;
     text-align: center;
+}
+
+#nightMooseArea {
+  background-color: green;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 70%;
+  padding: 2px;
 }
