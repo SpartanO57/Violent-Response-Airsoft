@@ -1,14 +1,44 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 1em;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* SEMANTIC UI OVERRIDES */
+
+
+/* HEADER */
+.ui.header {
+  color: white;
+}
+
+/* MENU */
+.ui.menu {
+  background-color: darkslategrey;
+}
+
+.ui.menu .active.item {
+  background-color: red;
+  color: black;
+  font-weight: bold;
+}
+
+.ui.menu .item {
+  color: white;
+}
+
+/* CARDS */
+
+.ui.cards > .card {
+  box-shadow: 1px 1px 10px 2px red;
 }
