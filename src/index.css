@@ -24,13 +24,17 @@ code {
 
 /* MENU */
 .ui.menu {
-  background-color: darkslategrey;
+  background-color: darkred;
 }
 
 .ui.menu .active.item {
   background-color: red;
   color: black;
   font-weight: bold;
+}
+
+.ui-menu .active.item:hover{
+  background-color: red;
 }
 
 .ui.menu .item {
